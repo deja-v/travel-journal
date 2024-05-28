@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+hr {
+    display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #d9d9d9;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.header {
+    margin: 0;
+    background-color: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+.header-text {
+    
+    margin: 0 7px;
+    color: white;
+}
+
+.img-and-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    padding: 50px 100px;
+    display: flex;
+}
+
+.location{
+    display: inline;
+    letter-spacing: 3px;
+    margin-right: 20px;
+}
+
+.images{
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+.content {
+    margin-left: 50px;
+}
+
+.map-link{
+    color: #918E9B;
+}
+
